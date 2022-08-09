@@ -71,6 +71,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044B812928A2877B002E8851 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				044B813028A28807002E8851 /* Common */,
+				044B813728A289A8002E8851 /* Notification */,
+				044B813628A288A5002E8851 /* Friends */,
+				044B813128A2881E002E8851 /* Profile */,
+				044B812E28A287AD002E8851 /* Main */,
+				044B812A28A2878F002E8851 /* SignIn */,
+				044B813828A289F3002E8851 /* Setting */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		044B812A28A2878F002E8851 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				044B812D28A287A8002E8851 /* Apple */,
+				044B812C28A287A0002E8851 /* Goolgle */,
+				044B812B28A2879A002E8851 /* Kakao */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		044B812B28A2879A002E8851 /* Kakao */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kakao;
+			sourceTree = "<group>";
+		};
+		044B812C28A287A0002E8851 /* Goolgle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Goolgle;
+			sourceTree = "<group>";
+		};
+		044B812D28A287A8002E8851 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		044B812E28A287AD002E8851 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0452E95A28901A88004A23A2 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		044B812F28A287B9002E8851 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0452E95828901A88004A23A2 /* iceStorageApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		044B813028A28807002E8851 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				044B813228A2884E002E8851 /* MiniProfile */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		044B813128A2881E002E8851 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		044B813228A2884E002E8851 /* MiniProfile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MiniProfile;
+			sourceTree = "<group>";
+		};
+		044B813328A2886D002E8851 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044B813428A2887B002E8851 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		044B813528A28885002E8851 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0452E95C28901A8C004A23A2 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		044B813628A288A5002E8851 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		044B813728A289A8002E8851 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		044B813828A289F3002E8851 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		0452E94C28901A88004A23A2 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +220,11 @@
 		0452E95728901A88004A23A2 /* iceStorage */ = {
 			isa = PBXGroup;
 			children = (
-				0452E95828901A88004A23A2 /* iceStorageApp.swift */,
-				0452E95A28901A88004A23A2 /* ContentView.swift */,
-				0452E95C28901A8C004A23A2 /* Assets.xcassets */,
+				044B812F28A287B9002E8851 /* App */,
+				044B812928A2877B002E8851 /* Presentation */,
+				044B813328A2886D002E8851 /* Model */,
+				044B813428A2887B002E8851 /* Service */,
+				044B813528A28885002E8851 /* Resource */,
 				0452E95E28901A8C004A23A2 /* Preview Content */,
 			);
 			path = iceStorage;
