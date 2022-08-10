@@ -13,7 +13,7 @@ extension Color {
     static let sdWhite = Color("sdWhite")
     static let sdRed = Color("sdRed")
     static let sdGreen = Color("sdGreen")
-    static let sdYellow = Color("sdBYellow")
+    static let sdYellow = Color("sdYellow")
     static let sdOrange = Color("sdOrange")
     static let sdBlue = Color("sdBlue")
     static let sdGray = Color("sdGray")
