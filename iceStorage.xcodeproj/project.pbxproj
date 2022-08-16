@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044837BC28AB8D2C00F56BE1 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044837BB28AB8D2C00F56BE1 /* SettingView.swift */; };
+		044837BE28AB96C300F56BE1 /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044837BD28AB96C300F56BE1 /* ProfileSettingView.swift */; };
+		044837C028AB96E300F56BE1 /* NotificationSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044837BF28AB96E300F56BE1 /* NotificationSettingView.swift */; };
 		0452E95928901A88004A23A2 /* iceStorageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452E95828901A88004A23A2 /* iceStorageApp.swift */; };
 		0452E95B28901A88004A23A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452E95A28901A88004A23A2 /* ContentView.swift */; };
 		0452E96028901A8C004A23A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0452E95F28901A8C004A23A2 /* Preview Assets.xcassets */; };
 		0452E96A28901A8C004A23A2 /* iceStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452E96928901A8C004A23A2 /* iceStorageTests.swift */; };
 		0452E97428901A8C004A23A2 /* iceStorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452E97328901A8C004A23A2 /* iceStorageUITests.swift */; };
 		0452E97628901A8C004A23A2 /* iceStorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452E97528901A8C004A23A2 /* iceStorageUITestsLaunchTests.swift */; };
+		372B26C328A554A300485B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372B26C228A554A300485B0C /* GoogleService-Info.plist */; };
+		372B26C628A5589300485B0C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 372B26C528A5589300485B0C /* FirebaseAnalytics */; };
 		9A3742E428A3C815009B17C0 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3742E328A3C815009B17C0 /* FontExtension.swift */; };
 		9AF2C07F28A39902004B39AD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2C07C28A39902004B39AD /* Colors.xcassets */; };
 		9AF2C08028A39902004B39AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2C07D28A39902004B39AD /* Assets.xcassets */; };
@@ -37,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044837BB28AB8D2C00F56BE1 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		044837BD28AB96C300F56BE1 /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
+		044837BF28AB96E300F56BE1 /* NotificationSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingView.swift; sourceTree = "<group>"; };
 		0452E95528901A88004A23A2 /* iceStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iceStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0452E95828901A88004A23A2 /* iceStorageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iceStorageApp.swift; sourceTree = "<group>"; };
 		0452E95A28901A88004A23A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,7 @@
 		0452E96F28901A8C004A23A2 /* iceStorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iceStorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0452E97328901A8C004A23A2 /* iceStorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iceStorageUITests.swift; sourceTree = "<group>"; };
 		0452E97528901A8C004A23A2 /* iceStorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iceStorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		372B26C228A554A300485B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A3742E328A3C815009B17C0 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		9AF2C07C28A39902004B39AD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9AF2C07D28A39902004B39AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372B26C628A5589300485B0C /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +201,9 @@
 		044B813828A289F3002E8851 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				044837BB28AB8D2C00F56BE1 /* SettingView.swift */,
+				044837BD28AB96C300F56BE1 /* ProfileSettingView.swift */,
+				044837BF28AB96E300F56BE1 /* NotificationSettingView.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -218,6 +231,7 @@
 		0452E95728901A88004A23A2 /* iceStorage */ = {
 			isa = PBXGroup;
 			children = (
+				372B26C228A554A300485B0C /* GoogleService-Info.plist */,
 				044B812F28A287B9002E8851 /* App */,
 				044B812928A2877B002E8851 /* Presentation */,
 				044B813328A2886D002E8851 /* Model */,
@@ -281,6 +295,9 @@
 			dependencies = (
 			);
 			name = iceStorage;
+			packageProductDependencies = (
+				372B26C528A5589300485B0C /* FirebaseAnalytics */,
+			);
 			productName = iceStorage;
 			productReference = 0452E95528901A88004A23A2 /* iceStorage.app */;
 			productType = "com.apple.product-type.application";
@@ -353,6 +370,9 @@
 				Base,
 			);
 			mainGroup = 0452E94C28901A88004A23A2;
+			packageReferences = (
+				372B26C428A5589300485B0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0452E95628901A88004A23A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF2C07F28A39902004B39AD /* Colors.xcassets in Resources */,
+				372B26C328A554A300485B0C /* GoogleService-Info.plist in Resources */,
 				0452E96028901A8C004A23A2 /* Preview Assets.xcassets in Resources */,
 				9AF2C08028A39902004B39AD /* Assets.xcassets in Resources */,
 			);
@@ -397,7 +418,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF2C08128A39902004B39AD /* ColorExtension.swift in Sources */,
+				044837BC28AB8D2C00F56BE1 /* SettingView.swift in Sources */,
 				0452E95B28901A88004A23A2 /* ContentView.swift in Sources */,
+				044837BE28AB96C300F56BE1 /* ProfileSettingView.swift in Sources */,
+				044837C028AB96E300F56BE1 /* NotificationSettingView.swift in Sources */,
 				9A3742E428A3C815009B17C0 /* FontExtension.swift in Sources */,
 				0452E95928901A88004A23A2 /* iceStorageApp.swift in Sources */,
 			);
@@ -486,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -540,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -567,7 +591,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,7 +622,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -728,6 +752,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		372B26C428A5589300485B0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		372B26C528A5589300485B0C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 372B26C428A5589300485B0C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0452E94D28901A88004A23A2 /* Project object */;
 }
