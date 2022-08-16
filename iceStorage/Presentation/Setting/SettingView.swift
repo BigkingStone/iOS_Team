@@ -9,7 +9,18 @@ import SwiftUI
 
 struct SettingView: View {
     var body: some View {
-        
+        NavigationView{
+            List() {
+                NavigationLink(destination: ProfileSettingView()) {
+                    Text("프로필 설정")
+                }
+                NavigationLink(destination: NotificationSettingView()) {
+                    Text("알림 설정")
+                }
+            }
+            .navigationTitle("설정")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
