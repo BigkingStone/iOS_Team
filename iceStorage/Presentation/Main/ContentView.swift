@@ -9,9 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-            .foregroundColor(.sdYellow)
+       
+            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+                MainView()
+                .tabItem { Image(systemName: "house")
+                }.tag(1)
+                Text("Tab Content 2").tabItem { Image(systemName: "person.2.fill") }.tag(2)
+                Text("Tab Content 2").tabItem { Image(systemName: "heart") }.tag(3)
+                Text("Tab Content 2").tabItem { Image(systemName: "text.justify") }.tag(4)
+                
+            }
+            .accentColor(.sdBlack)
+
     }
 }
 
