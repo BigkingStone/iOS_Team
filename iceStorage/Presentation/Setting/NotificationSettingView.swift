@@ -7,9 +7,23 @@
 
 import SwiftUI
 
+
+
 struct NotificationSettingView: View {
+    @State var notificationFlag : Bool = true
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            List(){
+                HStack{
+                    Spacer()
+                    Toggle(isOn: $notificationFlag){
+                        Text("알림")
+                    }
+                }
+                .navigationTitle("알림 설정")
+                .navigationBarTitleDisplayMode(.inline)
+            }
+        }
     }
 }
 
