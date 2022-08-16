@@ -18,6 +18,7 @@
 		0452E97628901A8C004A23A2 /* iceStorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452E97528901A8C004A23A2 /* iceStorageUITestsLaunchTests.swift */; };
 		372B26C328A554A300485B0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372B26C228A554A300485B0C /* GoogleService-Info.plist */; };
 		372B26C628A5589300485B0C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 372B26C528A5589300485B0C /* FirebaseAnalytics */; };
+		37530C1028A8C58D00B449EB /* LoginVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37530C0F28A8C58D00B449EB /* LoginVeiw.swift */; };
 		9A3742E428A3C815009B17C0 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3742E328A3C815009B17C0 /* FontExtension.swift */; };
 		9AF2C07F28A39902004B39AD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2C07C28A39902004B39AD /* Colors.xcassets */; };
 		9AF2C08028A39902004B39AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2C07D28A39902004B39AD /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		0452E97328901A8C004A23A2 /* iceStorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iceStorageUITests.swift; sourceTree = "<group>"; };
 		0452E97528901A8C004A23A2 /* iceStorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iceStorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		372B26C228A554A300485B0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37530C0F28A8C58D00B449EB /* LoginVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVeiw.swift; sourceTree = SOURCE_ROOT; };
 		9A3742E328A3C815009B17C0 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		9AF2C07C28A39902004B39AD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9AF2C07D28A39902004B39AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				044B812D28A287A8002E8851 /* Apple */,
 				044B812C28A287A0002E8851 /* Goolgle */,
 				044B812B28A2879A002E8851 /* Kakao */,
+				37530C0F28A8C58D00B449EB /* LoginVeiw.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 				044837BE28AB96C300F56BE1 /* ProfileSettingView.swift in Sources */,
 				044837C028AB96E300F56BE1 /* NotificationSettingView.swift in Sources */,
 				9A3742E428A3C815009B17C0 /* FontExtension.swift in Sources */,
+				37530C1028A8C58D00B449EB /* LoginVeiw.swift in Sources */,
 				0452E95928901A88004A23A2 /* iceStorageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,7 +586,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iceStorage/Preview Content\"";
-				DEVELOPMENT_TEAM = TDUR55YWW6;
+				DEVELOPMENT_TEAM = KR269W2945;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -613,7 +617,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iceStorage/Preview Content\"";
-				DEVELOPMENT_TEAM = TDUR55YWW6;
+				DEVELOPMENT_TEAM = KR269W2945;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

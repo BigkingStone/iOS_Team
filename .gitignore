@@ -42,12 +42,6 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
-### SwiftPM ###
-Packages
-.build/
-xcuserdata
-DerivedData/
-*.xcodeproj
 
 
 ### Xcode ###
