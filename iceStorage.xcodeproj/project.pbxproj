@@ -30,6 +30,7 @@
 		9A131CB628ABDCF2001A6480 /* FoodListPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A131CAF28ABDCF2001A6480 /* FoodListPicker.swift */; };
 		9A131CB828ABDD0A001A6480 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A131CB728ABDD0A001A6480 /* MainView.swift */; };
 		9A3742E428A3C815009B17C0 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3742E328A3C815009B17C0 /* FontExtension.swift */; };
+		9AB35E6728B4BE13002FFDAA /* SeeMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB35E6628B4BE13002FFDAA /* SeeMoreButton.swift */; };
 		9AF2C07F28A39902004B39AD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2C07C28A39902004B39AD /* Colors.xcassets */; };
 		9AF2C08028A39902004B39AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2C07D28A39902004B39AD /* Assets.xcassets */; };
 		9AF2C08128A39902004B39AD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2C07E28A39902004B39AD /* ColorExtension.swift */; };
@@ -78,6 +79,7 @@
 		9A131CAF28ABDCF2001A6480 /* FoodListPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListPicker.swift; sourceTree = "<group>"; };
 		9A131CB728ABDD0A001A6480 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9A3742E328A3C815009B17C0 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		9AB35E6628B4BE13002FFDAA /* SeeMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeMoreButton.swift; sourceTree = "<group>"; };
 		9AF2C07C28A39902004B39AD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9AF2C07D28A39902004B39AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF2C07E28A39902004B39AD /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -303,9 +305,18 @@
 				9A131CAC28ABDCF2001A6480 /* FoodList5.swift */,
 				9A131CAD28ABDCF2001A6480 /* FoodList1.swift */,
 				9A131CAE28ABDCF2001A6480 /* FoodList3.swift */,
-				9A131CAF28ABDCF2001A6480 /* FoodListPicker.swift */,
+				9AB35E6528B4BDAE002FFDAA /* Helpers */,
 			);
 			path = FoodList;
+			sourceTree = "<group>";
+		};
+		9AB35E6528B4BDAE002FFDAA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9A131CAF28ABDCF2001A6480 /* FoodListPicker.swift */,
+				9AB35E6628B4BE13002FFDAA /* SeeMoreButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		9AF2C07B28A39902004B39AD /* Resource */ = {
@@ -465,6 +476,7 @@
 				044837BE28AB96C300F56BE1 /* ProfileSettingView.swift in Sources */,
 				044837C028AB96E300F56BE1 /* NotificationSettingView.swift in Sources */,
 				9A131CB428ABDCF2001A6480 /* FoodList1.swift in Sources */,
+				9AB35E6728B4BE13002FFDAA /* SeeMoreButton.swift in Sources */,
 				9A131CB028ABDCF2001A6480 /* FoodList4.swift in Sources */,
 				9A3742E428A3C815009B17C0 /* FontExtension.swift in Sources */,
 				9A131CB828ABDD0A001A6480 /* MainView.swift in Sources */,
